@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1702378825 source:c:\users\user\desktop\sort\obmenom\main.cpp
+	<fstream>
+	<vector>
+	<ctime>
+

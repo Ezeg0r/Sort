@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1702379874 source:c:\users\user\desktop\sort\vstavkami\main.cpp
+	<fstream>
+	<vector>
+	<ctime>
+
