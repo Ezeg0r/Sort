@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1702758101 source:e:\programing\lyceum bsu\homework\quicksort\main.cpp
+	<iostream>
+	<ctime>
+	<vector>
+	<fstream>
+

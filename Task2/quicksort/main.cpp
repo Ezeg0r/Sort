@@ -58,7 +58,6 @@ int main() {
    int t1 = clock();
    quickSort(a, 0, n - 1);
    int t2 = clock();
-
    cout << t2 - t1;
 
    return 0;
