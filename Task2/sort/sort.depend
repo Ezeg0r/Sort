@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1702473745 source:d:\lyceum\project2\sort\main.cpp
+	<fstream>
+	<vector>
+	<ctime>
+	<algorithm>
+
