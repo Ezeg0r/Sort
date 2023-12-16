@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1702746095 source:c:\projects\sort\task2\mergesort\main.cpp
+	<fstream>
+	<vector>
+	<ctime>
+
