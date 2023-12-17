@@ -1,4 +1,4 @@
-#include <iostream>
+#include <fstream>
 #include <vector>
 #include <ctime>
 
@@ -38,19 +38,22 @@ void quickSort(vector<int> &arr, int low, int high){
 
 int main()
 {
+    ifstream fin("input.txt");
+    ofstream fout("output.txt");
 	int n;
-	cin >> n;
+	fin >> n;
 	vector<int> a(n);
 
 	for (int &i : a) {
-        cin >> i;
+        fin >> i;
 	}
 	int t1 = clock();
 	quickSort(a, 0 , n-1);
 	int t2 = clock();
-
-
-    cout << t2 - t1;
+    for (int i =  0; i < n; i++)
+        fout << a[i] << ' ';
+    fout << endl;
+    fout << t2 - t1;
 
     return 0;
 }

@@ -1,6 +1,11 @@
 # depslib dependency file v1.0
-1702816096 source:c:\users\egorp\documents\quicksort\main.cpp
-	<iostream>
+1702819076 source:e:\programing\lyceum bsu\homework\quicksort\main.cpp
+	<fstream>
+	<vector>
+	<ctime>
+
+1702819076 source:e:\books\sort\task2\quicksort\main.cpp
+	<fstream>
 	<vector>
 	<ctime>
 
